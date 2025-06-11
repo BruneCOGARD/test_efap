@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JONATHAN COHEN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fef6ee;
+      color: #1c2e1e;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #1c2e1e;
+      font-size: 0.9rem;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: #fef6ee;
+    }
+
+    .hero-text {
+      flex: 1;
+      padding: 4rem 2rem;
+    }
+
+    .hero-text h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    .hero-text p {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    .hero-image {
+      flex: 1;
+      background: #f4f23d;
+      padding: 2rem;
+      border-radius: 0 0 0 100px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      border-radius: 50px;
+    }
+
+    section {
+      padding: 4rem 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    small {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .services-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .services-list ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    .services-list li {
+      border-top: 1px solid #1c2e1e;
+      padding: 1rem 0;
+    }
+
+    button {
+      border: 1px solid #1c2e1e;
+      background: transparent;
+      padding: 0.6rem 1.2rem;
+      border-radius: 2rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .temoignage {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .image-block {
+      flex: 1;
+      background-color: #f26522;
+      border-radius: 50% 50% 0 0;
+      padding: 2rem;
+    }
+
+    .image-block img {
+      width: 100%;
+      border-radius: 50% 50% 0 0;
+    }
+
+    .text-block {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .text-block .citation {
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+
+    .footer {
+      background-color: #1c2e1e;
+      color: white;
+      padding: 4rem 2rem;
+    }
+
+    .footer input {
+      padding: 0.6rem;
+      border: none;
+      border-radius: 1rem;
+      margin-right: 1rem;
+    }
+
+    .footer button {
+      background: white;
+      color: #1c2e1e;
+      border: none;
+    }
+
+    .final-cta {
+      background-color: #e8dafc;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .final-cta h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>JONATHAN COHEN</div>
+    <nav>
+      <a href="#galerie">GALERIE</a>
+      <a href="#apropos">À PROPOS</a>
+    </nav>
+    <button>LE SUIVRE</button>
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>JONATHAN COHEN</h1>
+      <p>AKA FUCKING FRED OU SERGE LE MYTHO</p>
+    </div>
+    <div class="hero-image">
+      <img src="portrait1.jpg" alt="Portrait principal">
+    </div>
+  </div>
+
+  <section id="apropos">
+    <div class="container">
+      <small>À PROPOS DE JOCO</small>
+      <p>Jonathan Cohen, né le 16 juin 1980 dans le 19e arrondissement de Paris, est un réalisateur, producteur et acteur français.
+Il s'est fait connaître en incarnant le personnage de Serge le Mytho en tant que second rôle dans la série Bloqués diffusée sur Canal +, puis dans une série dérivée consacrée au personnage. Il avait précédemment incarné le personnage de Charles dans Bref.. Il travaille également dans le doublage en jouant notamment le Docteur Néfario dans Moi, moche et méchant.
+2020 est pour lui une année marquée par la sortie de trois comédies : Tout simplement noir, Terrible Jungle et Énorme. Outre la saison 2 de Family Business, il co-réalise la série Canal+ La Flamme, une parodie du Bachelor, dans laquelle il joue le rôle de Marc, un pilote de ligne à la recherche du grand amour. Cette série connaît un succès critique et commercial. Il annonce en 2022 la sortie de sa deuxième saison : Le Flambeau : Les aventuriers de Chupacabra.</p>
+    </div>
+  </section>
+
+  <section class="philosophie">
+    <div class="container">
+      <small>PHILOSOPHIE</small>
+      <img src="images/joco-philo.jpg" alt="Jonathan pensif" style="width: 100%; border-radius: 20px; margin: 2rem 0;">
+      <p>Pour JOCO. MOJITO ! QUE SE PASO ! OLDEL PASO ! NO NO JOSE</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container services-wrapper">
+      <div class="services-text">
+        <small>EN SAVOIR PLUS</small>
+        <p>TOUTES LES INFOS SUR JOCO</p>
+      </div>
+      <div class="services-list">
+        <button>RÉSERVER</button>
+        <ul>
+          <li>Lien Amazon Prime pour "Comme un léopard"</li>
+          <li>Galerie Photo</li>
+          <li>Page Wikipédia</li>
+          <li>Ses actualités</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="temoignage">
+    <div class="image-block">
+      <img src="portrait2.jpg" alt="Brandi jeune">
+    </div>
+    <div class="text-block">
+      <p class="citation">“ J’ai galéré pendant longtemps. Je faisais des voix dans des pubs, je passais des castings pour des rôles de dealer… J’ai mis du temps à me faire une place, mais ça m’a construit.”</p>
+      <p class="signature">JONATHAN COHEN • LA STAR QU'IL PENSE ÊTRE</p>
+      <button>LIRE MON HISTOIRE</button>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Jonathan Cohen, ou comment passer de mytho… à mythique.</h2>
+    <button>LE SUIVRE</button>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>• Tenez-vous informé(e)</strong></p>
+      <p>Inscrivez-vous pour recevoir des e-mails avec son actualité...</p>
+      <input type="email" placeholder="Adresse e-mail">
+      <button>S’INSCRIRE</button>
+    </div>
+  </footer>
+</body>
+</html>
